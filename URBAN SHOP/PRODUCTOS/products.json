@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name":" CASACA 1",
+        "price": 200,
+        "image": "image/9.png"
+    },
+    {
+        "id": 2,
+        "name":" CASACA 2",
+        "price": 250,
+        "image": "image/10.png"
+    },
+    {
+        "id": 3,
+        "name":" CASACA 3",
+        "price": 290,
+        "image": "image/11.png"
+    },
+    {
+        "id": 4,
+        "name":" CHALECO",
+        "price": 200,
+        "image": "image/12.png"
+    },
+    {
+        "id": 5,
+        "name":" POLERA 1",
+        "price": 300,
+        "image": "image/13.png"
+    },
+    {
+        "id": 6,
+        "name":" POLERA 2",
+        "price": 200,
+        "image": "image/14.png"
+    },
+    {
+        "id": 7,
+        "name":" POLERA 3",
+        "price": 200,
+        "image": "image/15.png"
+    },
+    {
+        "id": 8,
+        "name":" CASACA 4",
+        "price": 200,
+        "image": "image/productos.png"
+    }
+
+]

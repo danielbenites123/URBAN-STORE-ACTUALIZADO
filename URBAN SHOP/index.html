@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URBAN SHOP-WEB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">URBAN SHOP</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="/SERVICES/index.html">SERVICIO</a></li>
+                    <li><a href="/PRODUCTOS/index.html">PRODUCTOS</a></li>
+                    <li><a href="/CONTAC/index.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>IMAGEN</th>
+                                        <th>NOMBRE</th>
+                                        <th>PRECIO</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">VACIAR CARRITO</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="images/modelo.png" alt="">
+            </div>
+            
+            <div class="header-txt">
+                <h1>OFERTAS ESPECIALES</h1>
+                <P>ESTRENA LAS MEJORES PRENDAS</P>
+                <a href="#" class="btn-1">INFORMACION</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/MORRAL.png" alt="">
+            </div>
+
+            <div class="ofert-txt">
+                <h3>PECHERA OVERSIZE</h3>
+                <a href="#" class="btn-2">INFORMACION</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/ZAPATILLA.png" alt="">
+            </div>
+
+            <div class="ofert-txt">
+                <h3>ZAPATILLA OVERSIZE</h3>
+                <a href="#" class="btn-2">INFORMACION</a>
+            </div>
+        </div>
+        
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/MOCHILA.png" alt="">
+            </div>
+
+            <div class="ofert-txt">
+                <h3>MOCHILA OVERSIZE</h3>
+                <a href="#" class="btn-2">INFORMACION</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+
+        <h2>PRODUCTOS</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="images/9.png" alt="">
+                <div class="product-txt">
+                    <h3>Chaqueta Puffer Negra </h3>
+                    <p>Chaqueta acolchada de calidad premium en color negro, 
+                        perfecta para protegerse del frío con estilo y comodidad. Ideal para climas fríos.</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">agregar-carrito</a>
+                </div>
+                
+            </div>
+        
+
+        
+            <div class="product">
+                <img src="images/10.png" alt="">
+                <div class="product-txt">
+                    <h3>Chaqueta Puffer Negra</h3>
+                    <p>Cazadora acolchada con capucha, de diseño moderno y corte ajustado, 
+                        fabricada con materiales de alta calidad para una máxima protección térmica</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">agregar-carrito</a>
+                </div>
+            </div>
+        
+
+        
+            <div class="product">
+                <img src="images/11.png" alt="">
+                <div class="product-txt">
+                    <h3>Chaqueta Puffer Bicolor</h3>
+                    <p>Chaqueta acolchada en blanco y gris con capucha, ligera pero cálida. Combina moda y funcionalidad en un diseño atractivo.</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">agregar-carrito</a>
+                </div>
+            </div>
+        
+
+        
+            <div class="product">
+                <img src="images/12.png" alt="">
+                <div class="product-txt">
+                    <h3>Chaleco Acolchado Negro</h3>
+                    <p>Chaleco ligero y resistente al frío, 
+                        ideal para combinar con cualquier outfit de invierno. Ofrece estilo y comodidad a partes iguales.</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">agregar-carrito</a>
+                </div>
+            </div>
+        
+
+        
+            <div class="product">
+                <img src="images/13.png" alt="">
+                <div class="product-txt">
+                    <h3>Sudadera Essentials Gris</h3>
+                    <p>Sudadera de algodón de alta calidad, con capucha y un diseño minimalista. 
+                        Perfecta para un look casual y cómodo.</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">agregar-carrito</a>
+                </div>
+            </div>
+        
+
+        
+            <div class="product">
+                <img src="images/15.png" alt="">
+                <div class="product-txt">
+                    <h3>Sudadera Essentials Negra</h3>
+                    <p>Sudadera negra con capucha, estilo urbano, 
+                        confeccionada en materiales suaves y cálidos, ideal para el día a día.</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">agregar-carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i1.svg" alt="">
+            </div>
+            
+            <div class="icon-txt">
+                <h3>AMPLIA SELECCION</h3>
+                <p>Encuentra tu estilo entre nuestra variedad de ropa urbana y clásica</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i2.svg" alt="">
+            </div>
+            
+            <div class="icon-txt">
+                <h3>ENVIO RAPIDO</h3>
+                <p>Entrega gratuita en pedidos superiores a 50€</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/i3.svg" alt="">
+            </div>
+            
+            <div class="icon-txt">
+                <h3>ATENCION AL CLIENTE</h3>
+                <p>Soporte 24/7 para todas tus consultas de moda</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container">
+
+        <div class="blog-1">
+            <img src="images/b1.jpg" alt="">
+            <h3>TENDENCIAS URBANAS 2024</h3>
+            <p>
+                Descubre las últimas tendencias en 
+                moda urbana para este año y cómo 
+                incorporarlas a tu estilo personal.
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b2.jpg" alt="">
+            <h3>CLASICAS REINVENTADOS</h3>
+            <p>
+                Cómo combinar piezas clásicas con un 
+                toque moderno para crear looks sofisticados 
+                y contemporáneos
+            </p>
+        </div>
+
+        <div class="blog-1">
+            <img src="images/b3.jpg" alt="">
+            <h3>ACCESORIOS MUST-HAVE</h3>
+            <p>
+                Los accesorios imprescindibles para 
+                complementar tus outfits urbanos y 
+                clásicos esta temporada
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <div class="link">
+                <h3>PRODUCTOS</h3>
+                <ul>
+                    <li><a href="#">ROPA URBANA</a></li>
+                    <li><a href="#">ROPA CLASICA</a></li>
+                    <li><a href="#">ACCESORIOS</a></li>
+                    <li><a href="#">CALZADO</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>ATENCION AL CLIENTE</h3>
+                <ul>
+                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="#">DEVOLUCIONES</a></li>
+                    <li><a href="#">ENVIOS</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>EMPRESA</h3>
+                <ul>
+                    <li><a href="#">SOBRE NOSOTROS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">PRENSA</a></li>
+                    <li><a href="#">TRABAJA CON NOSOTROS</a></li>
+                </ul>
+            </div>
+            
+            <div class="link">
+                <h3>SIGUENOS</h3>
+                <ul>
+                    <li><a href="#">FACEBOOK</a></li>
+                    <li><a href="#">INSTAGRAM</a></li>
+                    <li><a href="#">TWITTER</a></li>
+                    <li><a href="#">PINTEREST</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="copy">
+            <h3>© 2024 Urban & Classic SHOP. Todos los derechos reservados</h3>
+        </div>
+    </footer>
+
+
+
+
+
+    
+    <script src="scrip.js"></script>
+</body>
+</html>
